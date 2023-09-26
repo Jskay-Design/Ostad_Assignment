@@ -48,7 +48,7 @@
       $num2 = $_POST['num2'];
       $operator = $_POST['operator'];
 
-      // Check which operator was chosen and perform the corresponding calculation
+      // Check which operator was chosen and perform the correspondigitng calculation
       if ($operator == 'addition') {
         $result = $num1 + $num2;
       } elseif ($operator == 'subtraction') {
